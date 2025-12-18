@@ -1,53 +1,22 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 bg-white">
+    <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-          お問い合わせ
+        <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
+          始まりの相談を。
         </h2>
-        <p className="text-slate-600 mb-8">
-          プロジェクトのご相談やお見積もりなど、お気軽にお問い合わせください。
+        <p className="text-lg text-slate-600 mb-10">
+          あなたのアイデアを「一」にするお手伝いをさせてください。
         </p>
-        <div className="bg-blue-50 rounded-xl p-6 sm:p-8 border border-blue-100">
-          <div className="space-y-4">
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
-                メールアドレス
-              </h3>
-              <a
-                href="mailto:rootichi.jp@gmail.com"
-                className="text-blue-600 hover:text-blue-700 text-lg font-medium"
-              >
-                rootichi.jp@gmail.com
-              </a>
-            </div>
-            <div className="pt-4 border-t border-blue-200">
-              <h3 className="text-lg font-semibold text-slate-900 mb-4">
-                その他のリンク
-              </h3>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://github.com/rootichi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-3 bg-slate-800 text-white rounded-lg hover:bg-slate-900 transition-colors"
-                >
-                  GitHub
-                </a>
-                <a
-                  href="https://vercel.com/rootichi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-3 bg-black text-white rounded-lg hover:bg-slate-800 transition-colors"
-                >
-                  Vercel
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <a
+          href="https://docs.google.com/forms/d/15GlMvEmiKCG8YBBVTRZP_q2wpASbyjmYJutUmeTaM-4/edit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-4 bg-[#87CEEB] text-white rounded-lg text-base font-semibold hover:bg-[#6bb8d4] transition-colors shadow-sm hover:shadow-md"
+        >
+          お問い合わせ
+        </a>
       </div>
     </section>
   );
 }
-

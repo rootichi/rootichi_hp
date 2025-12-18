@@ -1,39 +1,35 @@
 export default function Services() {
   const services = [
     {
+      number: "01",
       title: "SaaS開発",
-      description: "お客様のビジネスに最適なSaaSアプリケーションを開発します。スケーラブルで保守性の高いシステムを構築。",
-      icon: "🚀",
+      description: "ビジネスの核となるプラットフォームを構築します。拡張性を担保したクリーンな設計で、成長に耐えうるシステムを提供します。",
     },
     {
-      title: "Webアプリケーション",
-      description: "モダンな技術スタックを使用した、高速で使いやすいWebアプリケーションを提供します。",
-      icon: "💻",
+      number: "02",
+      title: "アプリケーション開発",
+      description: "ユーザーの体験を第一に考えたモバイル・デスクトップアプリ開発。直感的な操作性と、長く愛される美しさを両立させます。",
     },
     {
-      title: "コンサルティング",
-      description: "技術選定からアーキテクチャ設計まで、プロジェクトの成功をサポートします。",
-      icon: "📊",
+      number: "03",
+      title: "HP制作",
+      description: "ブランドの思想を可視化するHP制作。単なる名刺代わりのHPではなく、ストーリーが伝わるデジタル空間を創り上げます。",
     },
   ];
 
   return (
-    <section id="services" className="py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-4">
+    <section id="services" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-16 text-center">
           サービス
         </h2>
-        <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-          お客様のビジネス成長をサポートする、包括的な開発サービスを提供しています。
-        </p>
-        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
           {services.map((service, index) => (
-            <div
-              key={index}
-              className="p-8 rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all bg-white"
-            >
-              <div className="text-5xl mb-4">{service.icon}</div>
-              <h3 className="text-2xl font-semibold text-slate-900 mb-3">
+            <div key={index} className="space-y-4">
+              <div className="text-5xl font-bold text-[#87CEEB] opacity-20">
+                {service.number}
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900">
                 {service.title}
               </h3>
               <p className="text-slate-600 leading-relaxed">
@@ -46,4 +42,3 @@ export default function Services() {
     </section>
   );
 }
-
