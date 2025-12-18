@@ -9,8 +9,8 @@ export default function Logo() {
         width={1024}
         height={1024}
         priority
-        className="w-auto h-12 sm:h-16 md:h-20"
-        style={{ objectFit: "contain" }}
+        className="h-14 sm:h-18 md:h-24"
+        style={{ objectFit: "contain", width: "auto" }}
       />
     </div>
   );
