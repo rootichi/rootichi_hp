@@ -13,7 +13,7 @@ export default function Vision() {
             私たちは、過剰な多機能さよりも、本質的な価値を磨き上げることを優先します。
           </p>
           <p className="font-semibold text-slate-900">
-            根（Root）が深く、強固な一（Ichi）を築くこと。それが私たちの名前「rootichi」に込めた約束です。
+            根（root）が深く、強固な一（ichi）を築くこと。それが私たちの名前「rootichi」に込めた約束です。
           </p>
         </div>
       </div>
