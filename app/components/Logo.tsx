@@ -6,11 +6,11 @@ export default function Logo() {
       <Image
         src="/logo.svg"
         alt="rootichi logo"
-        width={40}
-        height={40}
+        width={48}
+        height={56}
         priority
+        className="w-auto h-10 sm:h-12"
       />
-      <span className="text-xl font-semibold text-slate-800">rootichi</span>
     </div>
   );
 }
