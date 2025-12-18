@@ -6,8 +6,8 @@ export default function Logo() {
       <Image
         src="/logo.svg"
         alt="rootichi logo"
-        width={48}
-        height={56}
+        width={1024}
+        height={1024}
         priority
         className="w-auto h-10 sm:h-12"
       />

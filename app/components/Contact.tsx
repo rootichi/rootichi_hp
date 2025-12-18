@@ -6,7 +6,9 @@ export default function Contact() {
           始まりの相談を。
         </h2>
         <p className="text-lg text-slate-600 mb-10">
-          あなたのアイデアを「一」にするお手伝いをさせてください。
+          あなたのアイデアを「一」にする
+          <br />
+          お手伝いをさせてください。
         </p>
         <a
           href="https://docs.google.com/forms/d/15GlMvEmiKCG8YBBVTRZP_q2wpASbyjmYJutUmeTaM-4/edit"
