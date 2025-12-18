@@ -4,13 +4,13 @@ export default function Logo() {
   return (
     <div className="flex items-center gap-3">
       <Image
-        src="/logo.svg"
+        src="/logo.png"
         alt="rootichi logo"
-        width={1024}
-        height={1024}
+        width={400}
+        height={400}
+        quality={100}
         priority
-        className="h-14 sm:h-18 md:h-24"
-        style={{ objectFit: "contain", width: "auto" }}
+        className="h-14 sm:h-18 md:h-24 w-auto"
       />
     </div>
   );
