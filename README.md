@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# rootichi ホームページ
 
-## Getting Started
+rootichiのSaaS開発事業を紹介するランディングページです。
 
-First, run the development server:
+## 技術スタック
+
+- **Next.js 16** - Reactフレームワーク
+- **TypeScript** - 型安全性
+- **Tailwind CSS** - スタイリング
+- **Vercel** - デプロイメント
+
+## 開発
+
+開発サーバーを起動:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いて確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ビルド
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+本番用ビルド:
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## デプロイ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+このプロジェクトはVercelにデプロイすることを想定しています。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. GitHubリポジトリにプッシュ
+2. Vercelでプロジェクトをインポート
+3. 自動デプロイが開始されます
 
-## Deploy on Vercel
+詳細は [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) を参照してください。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 連絡先
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: rootichi.jp@gmail.com
+- GitHub: [https://github.com/rootichi](https://github.com/rootichi)
+- Vercel: [https://vercel.com/rootichi](https://vercel.com/rootichi)

@@ -1,0 +1,27 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring (dark blue/navy) -->
+  <circle cx="60" cy="60" r="58" stroke="#1e3a5f" stroke-width="4"/>
+  <!-- Inner ring (teal blue) -->
+  <circle cx="60" cy="60" r="52" stroke="#4a9ba8" stroke-width="2"/>
+  
+  <!-- Letter "r" stem (dark blue) -->
+  <path d="M 38 50 L 38 80" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round"/>
+  <!-- Letter "r" curve (dark blue) -->
+  <path d="M 38 50 Q 38 40 48 40 L 52 40" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Letter "i" stem (dark blue) -->
+  <path d="M 58 50 L 58 80" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Leaf dot on "i" (teal blue) - curved leaf shape -->
+  <path d="M 58 45 Q 60 42 62 45 Q 60 48 58 45" stroke="#4a9ba8" stroke-width="3" fill="#4a9ba8" stroke-linecap="round"/>
+  
+  <!-- Roots from "r" base (teal blue) -->
+  <path d="M 38 80 Q 33 85 28 83" stroke="#4a9ba8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 38 80 Q 35 87 31 90" stroke="#4a9ba8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Roots from "i" base (teal blue) -->
+  <path d="M 58 80 Q 53 85 48 83" stroke="#4a9ba8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 58 80 Q 55 87 51 90" stroke="#4a9ba8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 58 80 Q 61 87 65 90" stroke="#4a9ba8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>
+
