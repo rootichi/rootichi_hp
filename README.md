@@ -1,0 +1,2 @@
+# rootichi_hp
+rootichiのホームページ
