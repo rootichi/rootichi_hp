@@ -6,30 +6,22 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <nav className="flex items-center justify-between">
           <Logo />
-          <div className="hidden md:flex items-center gap-8">
+          <div className="flex items-center gap-4 sm:gap-6 md:gap-8">
             <a
               href="#vision"
-              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-sm font-medium"
+              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-xs sm:text-sm font-medium"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-sm font-medium"
+              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-xs sm:text-sm font-medium"
             >
               Services
             </a>
             <a
               href="#contact"
-              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-sm font-medium"
-            >
-              Contact
-            </a>
-          </div>
-          <div className="md:hidden">
-            <a
-              href="#contact"
-              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-sm font-medium"
+              className="text-slate-700 hover:text-[#87CEEB] transition-colors text-xs sm:text-sm font-medium"
             >
               Contact
             </a>

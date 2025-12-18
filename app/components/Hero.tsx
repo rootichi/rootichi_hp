@@ -8,9 +8,9 @@ export default function Hero() {
           一を刻む。
         </h1>
         <p className="text-lg sm:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-          最小単位の価値（Level 1）を、最大の信頼で形にする。
+          最小単位の価値（1）を、信頼で形にする。
           <br />
-          SaaS・アプリケーション・Webサイト制作のプロ。
+          SaaS・アプリケーション・Web制作のプロ。
         </p>
         <a
           href="https://docs.google.com/forms/d/15GlMvEmiKCG8YBBVTRZP_q2wpASbyjmYJutUmeTaM-4/edit"
