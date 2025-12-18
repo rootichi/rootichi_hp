@@ -26,7 +26,7 @@ export default function Services() {
         <div className="grid md:grid-cols-3 gap-8 md:gap-12">
           {services.map((service, index) => (
             <div key={index} className="space-y-4">
-              <div className="text-5xl font-bold text-[#87CEEB] opacity-20">
+              <div className="text-5xl font-bold text-[#87CEEB]">
                 {service.number}
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
