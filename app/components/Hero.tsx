@@ -8,7 +8,7 @@ export default function Hero() {
           一を刻む
         </h1>
         <p className="text-lg sm:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-          最小単位の価値（Level 1）を、形にする。
+          あなたのアイデアを、形にする。
           <br />
           SaaS・アプリ・HP制作のプロ。
         </p>
@@ -18,7 +18,7 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="inline-block px-8 py-4 bg-[#87CEEB] text-white rounded-lg text-base font-semibold hover:bg-[#6bb8d4] transition-colors shadow-sm hover:shadow-md"
         >
-          プロジェクトを相談する
+          プロダクトを相談する
         </a>
       </div>
     </section>

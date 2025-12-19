@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "rootichi - SaaS開発事業",
-  description: "rootichiは、お客様のビジネス成長をサポートするSaaS開発事業です。シンプルで使いやすいソリューションを提供します。",
+  title: "rootichi - デジタルプロダクト開発事業",
+  description: "rootichiは、お客様のビジネス成長をサポートするデジタルプロダクト開発事業です。シンプルで使いやすいソリューションを提供します。",
 };
 
 export default function RootLayout({
